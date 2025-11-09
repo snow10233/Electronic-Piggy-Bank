@@ -64,8 +64,8 @@ const int SR04_Pin2 = 46;
 int closeTime, closeTimer, boxOpenChecktimes, boxCloseChecktimes_servoOn, boxCloseChecktimes_servoOff;
 
 //網路
-const char *ssid = "zihao";
-const char *password = "10231023";
+const char *ssid = "your_id";
+const char *password = "your_password";
 
 // HTTP 流媒體處理函數
 esp_err_t stream_handler(httpd_req_t *req) {
